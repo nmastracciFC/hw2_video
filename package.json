@@ -1,0 +1,29 @@
+{
+  "name": "hw2_video",
+  "version": "1.0.0",
+  "description": "hw2",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmastracciFC/hw2_video.git"
+  },
+  "author": "Natalie Mastracci",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nmastracciFC/hw2_video/issues"
+  },
+  "homepage": "https://github.com/nmastracciFC/hw2_video#readme",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-contrib-uglify-es": "git://github.com/gruntjs/grunt-contrib-uglify.git#harmony",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-sass": "^1.0.0"
+  }
+}
