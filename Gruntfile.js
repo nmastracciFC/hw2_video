@@ -20,15 +20,16 @@ module.exports = function(grunt) {
 
 		sass : {
 			build: {
-				src: ['sass/main.scss',
-					'sass/modules/*.scss'],
+				loadPath: '.',
+				src: ['sass/modules/*.scss',
+					'sass/main.scss'],
 				dest: 'prod/production.css'
 			}
 		},
 
 		watch : {
 			scripts: {
-				files: ['js/main.js', 'js/modules/*.js', 'sass/main.scss', 'sass/modules/*.scss'],
+				files: ['js/main.js', 'js/modules/*.js', 'sass/modules/*.scss', 'sass/main.scss'],
 				tasks: ['concat', 'uglify', 'sass'],
 				options: {
 					spawn: false
